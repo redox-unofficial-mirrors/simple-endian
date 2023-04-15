@@ -1,5 +1,5 @@
 [package]
-name = "simple_endian"
+name = "redox_simple_endian"
 version = "0.2.2"
 authors = ["Rex Lunae <rexlunae@gmail.com>"]
 edition = "2018"
