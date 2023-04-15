@@ -1,17 +1,18 @@
 [package]
 name = "redox_simple_endian"
 version = "0.2.2"
-authors = ["Rex Lunae <rexlunae@gmail.com>"]
+authors = ["Rex Lunae <rexlunae@gmail.com>", "Jeremy Soller <jackpot51@gmail.com"]
 edition = "2018"
 license = "MIT"
 description = "A create for defining endianness within your data structures, to make handling portable data structures simpler."
-repository = "https://github.com/rexlunae/simple-endian-rs"
+repository = "https://gitlab.redox-os.org/redox-os/simple-endian"
 keywords = ["endian", "byteorder", "big-endian", "little-endian"]
-documentation = "https://docs.rs/simple_endian/"
-homepage = "https://github.com/rexlunae/simple-endian-rs"
+documentation = "https://docs.rs/redox_simple_endian/"
+homepage = "https://gitlab.redox-os.org/redox-os/simple-endian"
 readme = "README.md"
 
-[dependencies]
+[lib]
+name = "simple_endian"
 
 [dev-dependencies]
 memmap = "0.7"
